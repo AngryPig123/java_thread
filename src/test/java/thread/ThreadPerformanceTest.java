@@ -1,9 +1,6 @@
 package thread;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
 
 /**
  * packageName    : thread
@@ -22,6 +19,5 @@ class ThreadPerformanceTest {
     void init() {
         System.out.println(0x0000FF00 >> 12);
     }
-
 
 }
